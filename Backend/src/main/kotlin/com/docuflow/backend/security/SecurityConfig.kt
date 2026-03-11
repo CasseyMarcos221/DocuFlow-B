@@ -53,6 +53,7 @@ class SecurityConfig(
     fun corsConfigurationSource(): CorsConfigurationSource {
         val configuration = CorsConfiguration()
         configuration.allowedOriginPatterns = listOf(
+            "https://docuflow-f-tl7w.onrender.com",
             "http://127.0.0.1:5500",
             "http://localhost:5500",
             "http://127.0.0.1:3000",
